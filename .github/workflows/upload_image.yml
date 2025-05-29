@@ -11,7 +11,7 @@ jobs:
   call-template:
     uses: ecommerce-bakend/ci-templates/.github/workflows/upload_image.yml@main
     with:
-      image_name: favourite-service
+      image_name: proxy-client
       image_tag: ${{ github.ref_name }}
       dockerfile_path: ./Dockerfile
       context: .
